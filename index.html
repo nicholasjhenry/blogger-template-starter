@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+
+    <link href='http://assets.example.com/stylesheets/screen.css' media='screen' rel='stylesheet' type='text/css'/>
+    <link href='http://assets.exaample.com/stylesheets/application.css' media='screen' rel='stylesheet' type='text/css'/>
+    <link href='http://assets.example.com/stylesheets/print.css' media='print' rel='stylesheet' type='text/css'/>
+    <link href='http://home.firsthand.ca:3000/stylesheets/application.css' media='screen' rel='stylesheet' type='text/css'/>
+    <!--[if lt IE 8]>
+      <link href="http://home.firsthand.ca:3000/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Firsthand Web Design
+Designer: Nicholas Henry
+URL:      www.firsthand.ca
+----------------------------------------------- */
+
+]]></b:skin>
+  </head>
+<body id='site-id'>
+
+  <div id='content'>
+
+    <b:section class='main' id='main' showaddelement='no'>
+      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+    </b:section>
+
+  </div>
+
+  <div id='sidebar'>
+    <b:section class='sidebar' id='sidebar' preferred='yes'>
+      <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'/>
+      <b:widget id='Profile1' locked='false' title='About Me' type='Profile'/>
+    </b:section>
+  </div>  
+</body>
+</html>
